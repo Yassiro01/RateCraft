@@ -6,92 +6,90 @@ import { Calendar, Clock, ArrowLeft, Share2, Twitter, Linkedin } from 'lucide-re
 
 const postData = {
   'how-to-calculate-freelance-rate': {
-    title: 'How to Calculate Your Freelance Rate: The Ultimate Guide',
+    title: 'How to Calculate Your Freelance Rate: The Math Behind Profitability',
     date: 'March 25, 2026',
     readTime: '8 min read',
     category: 'Strategy',
     image: 'https://picsum.photos/seed/rate/1200/600',
     content: `
-      <p>Determining your freelance rate is one of the most stressful parts of starting a business. Charge too much, and you fear losing the client. Charge too little, and you're working yourself to the bone for pennies.</p>
+      <p>Determining your freelance rate is one of the most critical business decisions you'll make. Many new freelancers fall into the trap of "market matching"—charging what they see others charging on platforms like Upwork or Fiverr. This is a race to the bottom.</p>
       
       <h3>The "Salary Replacement" Fallacy</h3>
-      <p>Many new freelancers take their previous salary, divide it by 2,000 hours, and call it a day. This is a massive mistake. As a freelancer, your rate needs to cover:</p>
+      <p>If you earned $80,000 as an employee, you might think $40/hour is a fair rate ($80,000 / 2,000 hours). <strong>This is dangerously low.</strong> As a freelancer, you are the employer and the employee. Your rate must cover:</p>
       <ul>
-        <li>Self-employment taxes (usually an extra 7-15%)</li>
-        <li>Health, dental, and vision insurance</li>
-        <li>Software subscriptions and hardware upgrades</li>
-        <li>Unpaid time (marketing, admin, sales)</li>
-        <li>Retirement savings</li>
+        <li><strong>Self-Employment Taxes:</strong> You're responsible for the full 15.3% (in the US) that was previously split with your employer.</li>
+        <li><strong>Non-Billable Overhead:</strong> You will spend 20-30% of your time on marketing, invoicing, and sales. You aren't getting paid for these hours directly.</li>
+        <li><strong>Benefits:</strong> Health insurance, 401k matching, and paid time off are now your responsibility.</li>
       </ul>
 
-      <h3>The Formula for Success</h3>
-      <p>The most sustainable way to calculate your rate is to work backward from your desired lifestyle. Start with your target net income, add your business expenses, and then factor in your tax burden.</p>
+      <h3>The Reverse-Engineering Formula</h3>
+      <p>To find your sustainable rate, work backward from your desired lifestyle:</p>
+      <ol>
+        <li><strong>Target Net Income:</strong> What do you need to take home after everything?</li>
+        <li><strong>Annual Expenses:</strong> Sum up your software, hardware, office, and insurance costs.</li>
+        <li><strong>The Tax Buffer:</strong> Add 25-30% to your total for taxes.</li>
+        <li><strong>Billable Capacity:</strong> Be realistic. Most full-time freelancers can only sustain 20-25 billable hours per week.</li>
+      </ol>
       
-      <p>Once you have your total gross requirement, divide it by your <strong>actual billable hours</strong>—not 40 hours a week, but the 20-25 hours you actually spend on client work.</p>
+      <p>Divide your total gross requirement by your annual billable hours. That is your <strong>floor</strong>—the absolute minimum you can charge to stay in business.</p>
 
       <blockquote>
-        "Pricing is not just about math; it's about the value you provide and the lifestyle you want to sustain."
+        "Your rate isn't just a price tag; it's the financial foundation of your freedom."
       </blockquote>
 
       <h3>Conclusion</h3>
-      <p>Don't be afraid to charge what you're worth. High-quality clients value reliability and expertise over the lowest price. Use tools like RateCraft to stay grounded in the math, and then add a premium for your unique skills.</p>
+      <p>Use the RateCraft calculator to run these numbers. Once you see the math, you'll realize why charging $25/hour is often a fast track to burnout. Charge for the value you provide and the business you're building.</p>
     `
   },
   'hidden-costs-of-freelancing': {
-    title: '5 Hidden Costs of Freelancing You Probably Forgot',
+    title: 'Beyond the Laptop: 7 Hidden Costs of Running a Freelance Business',
     date: 'March 18, 2026',
     readTime: '5 min read',
     category: 'Finance',
     image: 'https://picsum.photos/seed/costs/1200/600',
     content: `
-      <p>When you start freelancing, it's easy to focus on the hourly rate. But if you don't account for the hidden costs of running a business, you might find yourself earning less than you did at your 9-to-5.</p>
+      <p>When you transition to freelancing, your "take-home" pay is no longer your gross pay. Understanding the overhead of an independent professional is the difference between a hobby and a career.</p>
       
-      <h3>1. Self-Employment Tax</h3>
-      <p>In many countries, employers pay a portion of your social security and medicare taxes. When you're the employer, you pay both halves. This can be a significant chunk of your income that you need to set aside immediately.</p>
+      <h3>1. The "Employer" Half of Taxes</h3>
+      <p>Most employees only see half of their payroll taxes. As a freelancer, you pay both the employer and employee portions. This "hidden" 7.65% (in the US) often surprises new business owners during their first tax season.</p>
       
-      <h3>2. Software and Subscriptions</h3>
-      <p>Adobe Creative Cloud, Slack Pro, Zoom, accounting software, CRM tools—these $20-50 monthly charges add up quickly. If you aren't careful, you could be spending hundreds of dollars a month just to keep the lights on.</p>
+      <h3>2. Software Bloat</h3>
+      <p>Adobe Creative Cloud ($55/mo), Slack Pro ($8/mo), Zoom ($15/mo), QuickBooks ($30/mo), Calendly ($12/mo). These small monthly charges are "death by a thousand cuts." Always audit your stack quarterly.</p>
       
-      <h3>3. Non-Billable Time</h3>
-      <p>For every hour you spend designing or coding, you likely spend 30 minutes on admin, invoicing, and finding new clients. If you don't factor this "overhead" into your rate, you're essentially working those hours for free.</p>
+      <h3>3. Hardware Depreciation</h3>
+      <p>A professional laptop lasts 3 years. If your machine costs $3,000, you should be setting aside $83 every month into a "replacement fund" so you aren't hit with a massive bill when your screen goes black.</p>
       
-      <h3>4. Equipment and Maintenance</h3>
-      <p>Your laptop will eventually break. Your camera will need a new lens. Your office chair will wear out. Setting aside a "depreciation fund" ensures you have the cash ready when your essential tools need replacing.</p>
+      <h3>4. Unpaid "CEO" Time</h3>
+      <p>Answering emails, updating your portfolio, and chasing late payments are essential tasks that pay $0/hour. If you don't bake this time into your billable rate, your effective hourly wage drops significantly.</p>
       
-      <h3>5. Professional Development</h3>
-      <p>To stay competitive, you need to keep learning. Courses, books, and conferences aren't just "fun extras"—they are essential investments in your future earning potential.</p>
+      <h3>5. Health and Disability Insurance</h3>
+      <p>Without an employer-sponsored plan, premiums can be staggering. Furthermore, if you get sick and can't work, you don't get paid. Disability insurance is a "hidden" cost that protects your most valuable asset: your ability to work.</p>
     `
   },
   'raising-your-rates': {
-    title: 'When and How to Raise Your Rates for Existing Clients',
+    title: 'The Art of the Rate Increase: How to Charge More Without Losing Clients',
     date: 'March 10, 2026',
     readTime: '6 min read',
     category: 'Business',
     image: 'https://picsum.photos/seed/raise/1200/600',
     content: `
-      <p>Raising your rates is a natural part of business growth, yet it's the conversation freelancers dread most. Here's how to navigate it without losing your best clients.</p>
+      <p>Raising rates is the most effective way to grow your income without working more hours. However, doing it poorly can damage long-term relationships. Here is the professional framework for a price adjustment.</p>
       
-      <h3>Timing is Everything</h3>
-      <p>Don't wait until you're resentful of the low pay to ask for more. The best times to raise rates are:</p>
-      <ul>
-        <li>At the start of a new year</li>
-        <li>After a major successful project or milestone</li>
-        <li>When your schedule is consistently full</li>
-        <li>When you've gained a significant new skill or certification</li>
-      </ul>
+      <h3>The "Notice Period" Strategy</h3>
+      <p>Never raise rates effective immediately. Give your existing clients at least 60 days of notice. This shows respect for their budget cycles and gives them time to plan. A common approach is to announce in October for a January 1st effective date.</p>
+      
+      <h3>Focus on Value, Not Inflation</h3>
+      <p>Avoid saying "my costs have gone up." Instead, highlight the increased expertise you've gained. "Over the last year, I've streamlined our workflow, resulting in 20% faster turnaround times." You are charging for the <strong>result</strong>, not the time.</p>
 
-      <h3>The "Value-First" Approach</h3>
-      <p>Instead of saying "I need more money because my rent went up," focus on the increased value you're providing. Mention the results you've delivered over the past year and how your deepened understanding of their business makes you more efficient.</p>
-
-      <h3>Give Plenty of Notice</h3>
-      <p>Never spring a rate increase on a client for a project that's already started. Give at least 30-60 days' notice so they can adjust their budgets accordingly.</p>
+      <h3>The "Grandfather" Option</h3>
+      <p>If a legacy client is truly valuable but has a tight budget, you can offer to "grandfather" them into a mid-tier rate for an additional 3 months before the full increase kicks in. This softens the blow while still moving them toward your new market value.</p>
 
       <blockquote>
-        "A rate increase is a signal of growth, not a penalty for your clients."
+        "A rate increase is a filter. It helps you move away from low-value work so you can focus on the clients who truly value your impact."
       </blockquote>
 
-      <h3>What if they say no?</h3>
-      <p>Be prepared for some pushback. If a client can't meet your new rate, you can offer to reduce the scope of work or transition them to a different service level. Ultimately, if a client can't afford your market value, they may no longer be a good fit for your growing business.</p>
+      <h3>What to do if they say no?</h3>
+      <p>If a client refuses the increase, you have two choices: reduce the scope of work to match their budget, or politely finish the current project and move on. Remember, every hour spent on a low-paying client is an hour you can't sell to a high-paying one.</p>
     `
   }
 };

@@ -1,3 +1,4 @@
+# Replace ratecraft.io with your actual domain
 User-agent: *
 Allow: /
 

@@ -37,14 +37,14 @@ const faqs = [
 const blogPosts = [
   {
     id: 'how-to-calculate-freelance-rate',
-    title: 'How to Calculate Your Freelance Rate: The Ultimate Guide',
+    title: 'How to Calculate Your Freelance Rate: The Math Behind Profitability',
     date: 'March 25, 2026',
     category: 'Strategy',
     image: 'https://picsum.photos/seed/rate/400/250',
   },
   {
     id: 'hidden-costs-of-freelancing',
-    title: '5 Hidden Costs of Freelancing You Probably Forgot',
+    title: 'Beyond the Laptop: 7 Hidden Costs of Running a Freelance Business',
     date: 'March 18, 2026',
     category: 'Finance',
     image: 'https://picsum.photos/seed/costs/400/250',
@@ -90,12 +90,12 @@ export default function Home() {
                 <span>New: Version 2.0 is live</span>
               </div>
               <h1 className="text-5xl md:text-7xl font-bold text-slate-900 mb-8 tracking-tight leading-[1.1]">
-                Stop guessing. <br />
-                <span className="text-brand-600">Start billing with confidence.</span>
+                Stop undercharging. <br />
+                <span className="text-brand-600">Know your true market value.</span>
               </h1>
               <p className="text-xl text-slate-600 mb-10 leading-relaxed max-w-2xl mx-auto">
-                The most accurate hourly rate calculator for the modern freelancer. 
-                Calculate your rate based on real business costs and lifestyle goals.
+                The most comprehensive hourly rate calculator for freelancers, consultants, and independent professionals. 
+                Factor in taxes, overhead, and profit to build a sustainable business.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <Link

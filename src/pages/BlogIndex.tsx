@@ -7,8 +7,8 @@ import { Calendar, Clock, ArrowRight } from 'lucide-react';
 const posts = [
   {
     id: 'how-to-calculate-freelance-rate',
-    title: 'How to Calculate Your Freelance Rate: The Ultimate Guide',
-    excerpt: 'Learn the step-by-step process of determining your hourly rate without leaving money on the table.',
+    title: 'How to Calculate Your Freelance Rate: The Math Behind Profitability',
+    excerpt: 'Most freelancers guess their rates. Learn the data-driven approach to pricing that ensures your business stays profitable year-round.',
     date: 'March 25, 2026',
     readTime: '8 min read',
     category: 'Strategy',
@@ -16,8 +16,8 @@ const posts = [
   },
   {
     id: 'hidden-costs-of-freelancing',
-    title: '5 Hidden Costs of Freelancing You Probably Forgot',
-    excerpt: 'From software subscriptions to self-employment tax, these costs can eat your profit if you aren\'t careful.',
+    title: 'Beyond the Laptop: 7 Hidden Costs of Running a Freelance Business',
+    excerpt: 'From self-employment taxes to software bloat, discover the overhead costs that most independent professionals overlook when setting their rates.',
     date: 'March 18, 2026',
     readTime: '5 min read',
     category: 'Finance',
@@ -25,8 +25,8 @@ const posts = [
   },
   {
     id: 'raising-your-rates',
-    title: 'When and How to Raise Your Rates for Existing Clients',
-    excerpt: 'A guide on navigating the awkward conversation of increasing your prices with long-term partners.',
+    title: 'The Art of the Rate Increase: How to Charge More Without Losing Clients',
+    excerpt: 'Navigating price increases is a critical skill for growth. Learn how to communicate value and transition long-term clients to your new market rates.',
     date: 'March 10, 2026',
     readTime: '6 min read',
     category: 'Business',

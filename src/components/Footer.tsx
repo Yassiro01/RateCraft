@@ -22,14 +22,8 @@ export function Footer() {
               they need to build sustainable, profitable businesses.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="p-2 rounded-full bg-slate-800 hover:bg-brand-600 hover:text-white transition-all">
-                <Twitter className="w-4 h-4" />
-              </a>
-              <a href="#" className="p-2 rounded-full bg-slate-800 hover:bg-brand-600 hover:text-white transition-all">
-                <Github className="w-4 h-4" />
-              </a>
-              <a href="#" className="p-2 rounded-full bg-slate-800 hover:bg-brand-600 hover:text-white transition-all">
-                <Linkedin className="w-4 h-4" />
+              <a href="mailto:hello@ratecraft.io" className="p-2 rounded-full bg-slate-800 hover:bg-brand-600 hover:text-white transition-all">
+                <Mail className="w-4 h-4" />
               </a>
             </div>
           </div>

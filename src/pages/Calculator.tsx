@@ -43,13 +43,13 @@ export default function CalculatorPage() {
         >
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-100 text-brand-700 text-xs font-semibold mb-6">
             <Sparkles className="w-3 h-3" />
-            <span>Free for freelancers & consultants</span>
+            <span>Professional Grade Calculator</span>
           </div>
           <h1 className="text-4xl font-bold text-slate-900 mb-4 tracking-tight">
-            Hourly Rate Calculator
+            Freelance Hourly Rate Calculator
           </h1>
           <p className="text-lg text-slate-600 leading-relaxed">
-            Adjust the values below to see how your income goals and expenses impact your ideal hourly rate.
+            Determine exactly what you need to charge per hour to cover your taxes, expenses, and desired take-home pay.
           </p>
         </motion.div>
       </header>
